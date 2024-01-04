@@ -1,18 +1,14 @@
-import aboutImg from '../images/about.jpeg'
-import Title from './Title';
+import aboutImg from "../images/about.jpeg";
+import Title from "./Title";
 
 const About = () => {
   return (
     <section className="section" id="about">
-      <Title title="about" subTitle="us"/>
+      <Title title="about" subTitle="us" />
 
       <div className="section-center about-center">
         <div className="about-img">
-          <img
-            src={aboutImg}
-            className="about-photo"
-            alt="awesome beach"
-          />
+          <img src={aboutImg} className="about-photo" alt="awesome beach" />
         </div>
         <article className="about-info">
           <h3>explore the difference</h3>
@@ -26,7 +22,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#" className="btn">
+          <a href="#about" className="btn">
             read more
           </a>
         </article>
